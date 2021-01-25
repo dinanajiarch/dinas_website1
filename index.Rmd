@@ -1,0 +1,19 @@
+---
+title: "Dina Arch"
+image: "dina.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/dina-naji-arch-22649396/"
+  - label: Twitter
+    url: "https://twitter.com/dnajiarch"
+  - label: GitHub
+    url: "https://github.com/dinanajiarch"
+  - label: Email
+    url: "mailto:dnaji@ucsb.edu"
+output:
+  postcards::trestles
+site: distill::distill_website
+---
+ 
+I am a PhD student in Quantitative Methods at the University of California, Santa Barbara and currently working remotely from Tucson, AZ. In my free time, I like to show you pictures of my cats.  
+

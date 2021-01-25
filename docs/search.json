@@ -1,0 +1,27 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-24T22:01:05-07:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "Blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-24T22:01:15-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Dina Arch",
+      "author": [],
+      "contents": "\r\n\r\n    \r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Dina Arch\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            I am a PhD student in Quantitative Methods at the University of California, Santa Barbara and currently working remotely from Tucson, AZ. In my free time, I like to show you pictures of my cats.\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Dina Arch\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              I am a PhD student in Quantitative Methods at the University of California, Santa Barbara and currently working remotely from Tucson, AZ. In my free time, I like to show you pictures of my cats.\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2021-01-24T22:01:25-07:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
