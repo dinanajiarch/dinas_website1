@@ -85,38 +85,38 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>mfeo: welcome</title>
+<title>mfeo: Welcome</title>
 
-<meta property="description" itemprop="description" content="A short description of the post."/>
+<meta property="description" itemprop="description" content="This is my first blog post!"/>
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-01-24"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-01-24"/>
-<meta name="article:author" content="Unknown"/>
+<meta property="article:published" itemprop="datePublished" content="2021-02-04"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-02-04"/>
+<meta name="article:author" content="Dina Arch"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="mfeo: welcome"/>
+<meta property="og:title" content="mfeo: Welcome"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="A short description of the post."/>
+<meta property="og:description" content="This is my first blog post!"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="mfeo"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="mfeo: welcome"/>
-<meta property="twitter:description" content="A short description of the post."/>
+<meta property="twitter:title" content="mfeo: Welcome"/>
+<meta property="twitter:description" content="This is my first blog post!"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["welcome"]},{"type":"character","attributes":{},"value":["A short description of the post."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Unknown"]}]}]},{"type":"character","attributes":{},"value":["01-24-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","image","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Welcome"]},{"type":"character","attributes":{},"value":["This is my first blog post!"]},{"type":"character","attributes":{},"value":["cats.jpg"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Dina Arch"]}]}]},{"type":"character","attributes":{},"value":["02-04-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["cats.jpg","welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/header-attrs-2.6.6/header-attrs.js","welcome_files/header-attrs-2.6/header-attrs.js","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/popper-2.6.0/popper.min.js","welcome_files/tippy-6.2.7/tippy-bundle.umd.min.js","welcome_files/tippy-6.2.7/tippy-light-border.css","welcome_files/tippy-6.2.7/tippy.css","welcome_files/tippy-6.2.7/tippy.umd.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2117,8 +2117,7 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 </style>
-<style type="text/css">
-/* base variables */
+<style type="text/css">/* base variables */
 
 /* Edit the CSS properties in this file to create a custom
    Distill theme. Only edit values in the right column
@@ -2129,8 +2128,11 @@ d-appendix {
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-
-
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+@import url('https://fonts.googleapis.com/css2?family=Amiri');
+@import url('https://fonts.googleapis.com/css2?family=Bitter');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono');
 
 html {
   /*-- Main font sizes --*/
@@ -2146,10 +2148,10 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    sans-serif;
-  --mono-font:       monospace;
-  --body-font:       sans-serif;
-  --navbar-font:     sans-serif;  /* websites + blogs only */
+  --heading-font:    "Amiri", serif;
+  --mono-font:       "DM Mono", monospace;
+  --body-font:       "Bitter", sans-serif;
+  --navbar-font:     "Amiri", serif;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -2178,11 +2180,11 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       18px;
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --title-size:       18px;    
+  --text-color:       #ff414b; /* edited */
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --hover-color:      #dd424c; /* edited */
+  --bkgd-color:       #ffd8db; /* edited */
 }
 
 .distill-site-footer {
@@ -2194,7 +2196,18 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
-</style>
+
+/* Change bullets */
+ul > li::marker {
+  font-size: 1.125em;
+  color: #ff414b;
+}
+
+/* Change link appearance */
+d-article a {
+  border-bottom: 2px solid #ffd8db;
+  text-decoration: none;
+}</style>
 <style type="text/css">
 /* base style */
 
@@ -2350,7 +2363,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.6/header-attrs.js"></script>
+  <script src="../../site_libs/header-attrs-2.6.6/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2371,7 +2384,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"welcome","description":"A short description of the post.","authors":[{"author":"Unknown","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-01-24T00:00:00.000-07:00","citationText":"Unknown, 2021"}
+{"title":"Welcome","description":"This is my first blog post!","authors":[{"author":"Dina Arch","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-04T00:00:00.000-07:00","citationText":"Arch, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2384,7 +2397,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 <div class="nav-right">
 <a href="../../index.html">Home</a>
-<a href="../../about.html">About</a>
+<a href="../../about.html">About Me</a>
 <a href="../../blog.html">Blog</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2395,16 +2408,16 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>welcome</h1>
+<h1>Welcome</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A short description of the post.</p></p>
+<p><p>This is my first blog post!</p></p>
 </div>
 
 <div class="d-byline">
-  Unknown  
+  Dina Arch  
   
-<br/>01-24-2021
+<br/>02-04-2021
 </div>
 
 <div class="d-article">
