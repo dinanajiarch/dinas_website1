@@ -1,7 +1,7 @@
 name: "."
-title: "mfeo"
+title: "Dina Arch"
 description: |
-  mfeo
+  Dina Arch
 output_dir: "docs"
 navbar:
   right:
@@ -10,6 +10,8 @@ navbar:
     - text: "About Me"
       href: about.html
     - text: "Blog"      # add
-      href: blog.html   # add      
+      href: blog.html   # add 
+    - text: "CV"
+      href: https://ucsb.box.com/s/ckkbpb3xkjt4f0no1tlq9u80c7tq0on3
 output: distill::distill_article
 theme: postcards.css

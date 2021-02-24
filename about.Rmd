@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+image: "cats.jpg"
 description: |
   Here is my about me page!
 ---
